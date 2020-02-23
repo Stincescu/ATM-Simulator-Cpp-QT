@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FundsTransferPage</class>
+ <widget class="QWidget" name="FundsTransferPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>522</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>700</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="TypeIBANPage">
+    <widget class="QLabel" name="lblTypeIBAN">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>40</y>
+       <width>481</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Please type the IBAN</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QWidget" name="verticalLayoutWidget_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>701</width>
+       <height>501</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_4">
+      <item>
+       <layout class="QGridLayout" name="gridLayout_4">
+        <property name="sizeConstraint">
+         <enum>QLayout::SetDefaultConstraint</enum>
+        </property>
+        <property name="leftMargin">
+         <number>100</number>
+        </property>
+        <property name="topMargin">
+         <number>100</number>
+        </property>
+        <property name="rightMargin">
+         <number>100</number>
+        </property>
+        <property name="bottomMargin">
+         <number>50</number>
+        </property>
+        <property name="spacing">
+         <number>30</number>
+        </property>
+        <item row="2" column="3">
+         <widget class="QPushButton" name="ValButtonClear">
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+color:#FFFF00;
+font-size:15px;
+}</string>
+          </property>
+          <property name="text">
+           <string>Clear</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QPushButton" name="ValButton1">
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+font-size:15px;
+color: #FB8122;
+}</string>
+          </property>
+          <property name="text">
+           <string>1</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="3">
+         <widget class="QPushButton" name="ValButtonOk">
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+color:#008000;
+font-size:15px;
+}</string>
+          </property>
+          <property name="text">
+           <string>OK</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="2">
+         <widget class="QPushButton" name="ValButton3">
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+font-size:15px;
+color: #FB8122;
+}</string>
+          </property>
+          <property name="text">
+           <string>3</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="3">
+         <widget class="QPushButton" name="ValButtonCancel">
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+color:#FF0000;
+font-size:15px;
+}</string>
+          </property>
+          <property name="text">
+           <string>Cancel</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QPushButton" name="ValButton0">
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+font-size:15px;
+color: #FB8122;
+}</string>
+          </property>
+          <property name="text">
+           <string>0</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QPushButton" name="ValButton4">
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+font-size:15px;
+color: #FB8122;
+}</string>
+          </property>
+          <property name="text">
+           <string>4</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QPushButton" name="ValButton2">
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+font-size:15px;
+color: #FB8122;
+}</string>
+          </property>
+          <property name="text">
+           <string>2</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QPushButton" name="ValButton7">
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+font-size:15px;
+color: #FB8122;
+}</string>
+          </property>
+          <property name="text">
+           <string>7</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="2">
+         <widget class="QPushButton" name="ValButton9">
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+font-size:15px;
+color: #FB8122;
+}</string>
+          </property>
+          <property name="text">
+           <string>9</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QPushButton" name="ValButton8">
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+font-size:15px;
+color: #FB8122;
+}</string>
+          </property>
+          <property name="text">
+           <string>8</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="2">
+         <widget class="QPushButton" name="ValButton6">
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+font-size:15px;
+color: #FB8122;
+}</string>
+          </property>
+          <property name="text">
+           <string>6</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QPushButton" name="ValButton5">
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+font-size:15px;
+color: #FB8122;
+}</string>
+          </property>
+          <property name="text">
+           <string>5</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0" colspan="4">
+         <widget class="QLineEdit" name="LEDisplay">
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="TypeAmountPage">
+    <widget class="QWidget" name="verticalLayoutWidget_4">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>701</width>
+       <height>501</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_6">
+      <item>
+       <layout class="QGridLayout" name="gridLayout_6">
+        <property name="sizeConstraint">
+         <enum>QLayout::SetDefaultConstraint</enum>
+        </property>
+        <property name="leftMargin">
+         <number>100</number>
+        </property>
+        <property name="topMargin">
+         <number>100</number>
+        </property>
+        <property name="rightMargin">
+         <number>100</number>
+        </property>
+        <property name="bottomMargin">
+         <number>50</number>
+        </property>
+        <property name="spacing">
+         <number>30</number>
+        </property>
+        <item row="3" column="0">
+         <widget class="QPushButton" name="ValButtonn7">
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+font-size:15px;
+color: #FB8122;
+}</string>
+          </property>
+          <property name="text">
+           <string>7</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="2">
+         <widget class="QPushButton" name="ValButtonn3">
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+font-size:15px;
+color: #FB8122;
+}</string>
+          </property>
+          <property name="text">
+           <string>3</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="2">
+         <widget class="QPushButton" name="ValButtonn9">
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+font-size:15px;
+color: #FB8122;
+}</string>
+          </property>
+          <property name="text">
+           <string>9</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QPushButton" name="ValButtonn8">
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+font-size:15px;
+color: #FB8122;
+}</string>
+          </property>
+          <property name="text">
+           <string>8</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QPushButton" name="ValButtonn5">
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+font-size:15px;
+color: #FB8122;
+}</string>
+          </property>
+          <property name="text">
+           <string>5</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QPushButton" name="ValButtonn4">
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+font-size:15px;
+color: #FB8122;
+}</string>
+          </property>
+          <property name="text">
+           <string>4</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QPushButton" name="ValButtonn0">
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+font-size:15px;
+color: #FB8122;
+}</string>
+          </property>
+          <property name="text">
+           <string>0</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="2">
+         <widget class="QPushButton" name="ValButtonn6">
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+font-size:15px;
+color: #FB8122;
+}</string>
+          </property>
+          <property name="text">
+           <string>6</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QPushButton" name="ValButtonn1">
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+font-size:15px;
+color: #FB8122;
+}</string>
+          </property>
+          <property name="text">
+           <string>1</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QPushButton" name="ValButtonn2">
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+font-size:15px;
+color: #FB8122;
+}</string>
+          </property>
+          <property name="text">
+           <string>2</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="3">
+         <widget class="QPushButton" name="ValButtonnCancel">
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+color:#FF0000;
+font-size:15px;
+}</string>
+          </property>
+          <property name="text">
+           <string>Cancel</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="3">
+         <widget class="QPushButton" name="ValButtonnClear">
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+color:#FFFF00;
+font-size:15px;
+}</string>
+          </property>
+          <property name="text">
+           <string>Clear</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="3">
+         <widget class="QPushButton" name="ValButtonnOk">
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+color:#008000;
+font-size:15px;
+}</string>
+          </property>
+          <property name="text">
+           <string>OK</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0" colspan="4">
+         <widget class="QLineEdit" name="LEDisplay_1">
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QLabel" name="lblTypeAmount">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>40</y>
+       <width>481</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Please type the amount you want to transfer</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="ConfirmPage">
+    <widget class="QWidget" name="gridLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>-1</x>
+       <y>-1</y>
+       <width>701</width>
+       <height>401</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="1" column="0">
+       <widget class="QLabel" name="lblIBAN">
+        <property name="text">
+         <string>The IBAN you typed</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="lblMoney">
+        <property name="text">
+         <string>The amount of money you typed</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLabel" name="lblTypeIBANConfirm">
+        <property name="text">
+         <string>IBAN</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLabel" name="lblMoneyTyped">
+        <property name="text">
+         <string>MoneyAmount</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>470</y>
+       <width>156</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="ReceiptPageTransfer"/>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

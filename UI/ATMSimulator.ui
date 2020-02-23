@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ATMSimulator</class>
+ <widget class="QMainWindow" name="ATMSimulator">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>WelcomePage</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>-1</x>
+      <y>-1</y>
+      <width>700</width>
+      <height>500</height>
+     </rect>
+    </property>
+    <widget class="QWidget" name="Welcome">
+     <widget class="QLabel" name="lblWelcome">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>70</y>
+        <width>651</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Welcome to SS Bank</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnCard">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>370</y>
+        <width>669</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Card Inserted</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblInsert">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>210</y>
+        <width>651</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Please insert your card</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="NULL_2"/>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

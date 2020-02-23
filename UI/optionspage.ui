@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>OptionsPage</class>
+ <widget class="QWidget" name="OptionsPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>700</width>
+     <height>500</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="Options">
+    <widget class="QWidget" name="verticalLayoutWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>701</width>
+       <height>528</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <property name="spacing">
+       <number>40</number>
+      </property>
+      <property name="leftMargin">
+       <number>50</number>
+      </property>
+      <property name="topMargin">
+       <number>60</number>
+      </property>
+      <property name="rightMargin">
+       <number>50</number>
+      </property>
+      <property name="bottomMargin">
+       <number>100</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="lblOptions">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>5</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>Options Menu</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="buttonWithdrawal">
+        <property name="styleSheet">
+         <string notr="true">QPushButton { 
+font:Dosis;
+color:#FB8122;
+ font-size:15px;
+ background-color:E8EAE3;
+}</string>
+        </property>
+        <property name="text">
+         <string>Withdrawal</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="buttonDeposit">
+        <property name="styleSheet">
+         <string notr="true">QPushButton { 
+font:Dosis;
+color:#FB8122;
+ font-size:15px;
+ background-color:E8EAE3;
+}</string>
+        </property>
+        <property name="text">
+         <string>Deposit</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="buttonBalance">
+        <property name="styleSheet">
+         <string notr="true">QPushButton { 
+font:Dosis;
+color:#FB8122;
+ font-size:15px;
+ background-color:E8EAE3;
+}</string>
+        </property>
+        <property name="text">
+         <string>Check Balance</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="buttonTransfer">
+        <property name="styleSheet">
+         <string notr="true">QPushButton { 
+font:Dosis;
+color:#FB8122;
+ font-size:15px;
+ background-color:E8EAE3;
+}</string>
+        </property>
+        <property name="text">
+         <string>Funds Transfer</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="buttonExit">
+        <property name="styleSheet">
+         <string notr="true">QPushButton { 
+font:Dosis;
+color:#FB8122;
+ font-size:15px;
+ background-color:E8EAE3;
+}</string>
+        </property>
+        <property name="text">
+         <string>Exit</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="NULL_2"/>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
